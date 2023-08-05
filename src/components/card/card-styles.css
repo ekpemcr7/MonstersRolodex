@@ -1,0 +1,23 @@
+.monster-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada41;
+  border: 1px solid grey;
+  border: none;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.monster-box:hover {
+  transform: scale(1.05);
+}
+
+.monster-box p {
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

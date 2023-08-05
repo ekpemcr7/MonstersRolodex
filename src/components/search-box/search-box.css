@@ -1,0 +1,14 @@
+.search-box {
+  font-family: "Verdana", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  height: 50px;
+  width: 19rem;
+  padding: 7px;
+  margin-top: -200px;
+  border: none;
+  border-radius: 7px;
+  margin-bottom: 50px;
+  background-color: rgba(220, 235, 241, 0.699);
+  outline: none;
+  color: black;
+}
